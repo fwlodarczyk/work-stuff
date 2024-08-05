@@ -9,4 +9,5 @@ sudo apt update && sudo apt full-upgrade -y && sudo snap refresh
 sudo apt install ros-humble-desktop -y
 # fix this to not execute as sudo
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+sudo apt install ros-humble-rmw-cyclonedds-cpp -y
 exit
