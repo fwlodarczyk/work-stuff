@@ -8,3 +8,4 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update && sudo apt full-upgrade -y && sudo snap refresh
 sudo apt install ros-humble-desktop -y
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+exit
