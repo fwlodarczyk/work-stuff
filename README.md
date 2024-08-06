@@ -2,7 +2,7 @@
 Random scripts for speeding up installing of work stuff.
 
 ## Setup Ubuntu 24.04 on Hyper-V post installation
-`sudo apt update && sudo apt install curl -y`
+`sudo apt update && sudo apt install curl -y`  
 `curl -s https://raw.githubusercontent.com/fwlodarczyk/work-stuff/main/01-setup-ubuntu-22.04.sh | sudo bash`
 
 ### Install ROS2 Humble
