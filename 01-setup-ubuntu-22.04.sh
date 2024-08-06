@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update
 sudo apt full-upgrade -y
-sudo snap refresh -y
+sudo snap refresh
 sudo apt install linux-azure -y
 sudo apt autopurge -y
 sudo apt install git curl htop iperf3 cloud-guest-util -y
